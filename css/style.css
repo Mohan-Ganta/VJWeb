@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap');
 
 :root{
-  --violet:#57dfe9;
-  --pink:#FC427B;
+  --violet:#f5ba3b;
+  --pink: #1137e4;
   --gradient:linear-gradient(90deg, var(--violet), var(--pink));
 }
 
