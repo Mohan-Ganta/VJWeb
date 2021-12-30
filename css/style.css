@@ -172,7 +172,7 @@ header .navbar a:hover{
 .course .box{
   flex:1 1 30rem;
   border-radius: .5rem;
-  border:.1rem solid rgba(0,0,0,.1);
+  border:.1rem solid rgba(172, 248, 149, 0.589);
   padding:1rem;
   position: relative;
 }
