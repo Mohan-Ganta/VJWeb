@@ -540,6 +540,13 @@ header .navbar a:hover{
     display: initial;
   }
 
+  header .logo img{
+    width: 20%;
+    height: 10%;
+ 
+ }
+ 
+
   header .navbar{
     position: absolute;
     top:100%; left:0; right:0;
