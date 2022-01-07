@@ -4,7 +4,31 @@
   --violet:#f5ba3b;
   --pink: #1137e4;
   --gradient:linear-gradient(90deg, var(--violet), var(--pink));
+
 }
+/*===== Margenes =====*/
+:root{
+  --mb-1: 0.5rem;
+  --mb-2: 1rem;
+  --mb-3: 1.5rem;
+  --mb-4: 2rem;
+  --mb-5: 2.5rem;
+  --mb-6: 3rem;
+}
+
+/*===== z index =====*/
+:root{
+  --z-back: -10;
+  --z-normal: 1;
+  --z-tooltip: 10;
+  --z-fixed: 100;
+}
+
+/*===== BASE =====*/
+*,::before,::after{
+  box-sizing: border-box;
+}
+
 
 *{
   font-family: 'Nunito', sans-serif;
@@ -474,7 +498,80 @@ header .navbar a:hover{
 {
   text-size-adjust: 25;
 }
-
+.skills__container{
+  row-gap: 2rem;
+  text-align: center;
+ 
+}
+.btn1{
+  display: inline-block;
+  margin-top: 1rem;
+  padding:.8rem 3rem;
+  border-radius: .5rem;
+  background:rgb(12, 248, 4);
+  color: whitesmoke;
+  cursor: pointer;
+  font-size: 1.7rem;
+}
+.skills__subtitle{
+  margin-bottom: var(--mb-2);
+  text-align: left;
+  color:transparent;
+  background:var(--gradient);
+  -webkit-background-clip: text;
+  background-clip: text;
+  padding:0 1rem;
+  padding-top: 2.5rem;
+  font-size: 2rem;
+  text-transform: uppercase;
+}
+.skills__text{
+  margin-bottom: var(--mb-4);
+}
+.skills__data{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  font-weight: var(--font-semi);
+  padding: .5rem 1rem;
+  margin-bottom: var(--mb-4);
+  border-radius: .5rem;
+  box-shadow: 0 4px 25px rgba(14,36,49,.15);
+}
+.skills__icon{
+  font-size: 2rem;
+  margin-right: var(--mb-2);
+  color: var(--first-color);
+}
+.skills__name{
+  display: flex;
+  align-items: center;
+  margin-top: 1rem;
+  padding:.8rem 3rem;
+  border-radius: .5rem;
+  background:rgb(248, 61, 4);
+  color: whitesmoke;
+  cursor: pointer;
+  font-size: 1.7rem;
+}
+.skills__names{
+  display: flex;
+  align-items: center;
+ 
+}
+.skills__bar{
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  background-color: var(--first-color);
+  height: 1.25rem;
+  border-radius: .75rem;
+  z-index: var(--z-back);
+}
+.skills__img{
+  border-radius: .5rem;
+}
 
 
 
